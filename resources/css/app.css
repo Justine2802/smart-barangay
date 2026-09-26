@@ -1,0 +1,20 @@
+/* Import Bootstrap */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/* Your custom styles */
+:root {
+    --bs-primary: #FA812F;
+    --bs-primary-rgb: 250, 129, 47;
+}
+
+/* Custom overrides */
+.btn-primary {
+    background-color: #FA812F;
+    border-color: #FA812F;
+}
+
+.btn-primary:hover {
+    background-color: #EA580C;
+    border-color: #EA580C;
+}
